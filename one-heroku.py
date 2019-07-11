@@ -1,6 +1,7 @@
 from binance.client import Client
 from binance.websockets import BinanceSocketManager
 import pymongo
+from pymongo import MongoClient
 import inspect 
 
 import time
@@ -57,7 +58,7 @@ interval = '15m'
 #add the mongo details per coin here
 #________________________________________________________________________
 
-myclient = pymongo.MongoClient('localhost',27017)
+myclient = MongoClient('mongodb+srv://hello:Muhammad00@cluster0-562rq.mongodb.net/test?retryWrites=true&w=majority')
 
 
 ###########################################################
