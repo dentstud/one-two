@@ -1,0 +1,2 @@
+python one-heroku.py &
+python two-heroku.py
