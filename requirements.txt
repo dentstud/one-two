@@ -1,2 +1,2 @@
-pymongo
+pymongo[tls,srv]
 python-binance==0.7.0
