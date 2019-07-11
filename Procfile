@@ -1,1 +1,2 @@
-worker: python one-heroku.py & two-heroku.py 
+worker: python one-heroku.py 
+worker: python two-heroku.py 
