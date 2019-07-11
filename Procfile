@@ -1,1 +1,1 @@
-worker:      start --procfile=LocalProcfile 
+god -c config.god -D
